@@ -69,6 +69,7 @@ def generate_params(req: GenerateParamsRequest):
         return {
             "success": True,
             "headers": headers,
+            "cookies": cookies,
             "data": data,
         }
     except KeyError as e:
