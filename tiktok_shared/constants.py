@@ -1,0 +1,35 @@
+"""
+Constants and API URLs for TikTok
+Converted from: src/shared/constants/index.ts
+"""
+
+# IPC Channel constants for Electron communication
+IPC_CHANNELS = {
+    "GET_USER_AWEME_LIST": "GET_USER_AWEME_LIST",
+    "GET_USER_INFO": "GET_USER_INFO",
+    "GET_AWEME_DETAILS": "GET_AWEME_DETAILS",
+    "SELECT_FOLDER": "SELECT_FOLDER",
+    "DOWNLOAD_FILE": "DOWNLOAD_FILE",
+    "GET_DEFAULT_DOWNLOAD_PATH": "GET_DEFAULT_DOWNLOAD_PATH",
+    # Auto Updater
+    "CHECK_FOR_UPDATES": "CHECK_FOR_UPDATES",
+    "DOWNLOAD_UPDATE": "DOWNLOAD_UPDATE",
+    "QUIT_AND_INSTALL": "QUIT_AND_INSTALL",
+    # Auto Updater Events
+    "UPDATE_AVAILABLE": "UPDATE_AVAILABLE",
+    "UPDATE_DOWNLOADED": "UPDATE_DOWNLOADED",
+    "DOWNLOAD_PROGRESS": "DOWNLOAD_PROGRESS",
+    "UPDATE_ERROR": "UPDATE_ERROR",
+    "CHECKING_FOR_UPDATE": "CHECKING_FOR_UPDATE",
+    "UPDATE_NOT_AVAILABLE": "UPDATE_NOT_AVAILABLE",
+    # Settings
+    "GET_SETTINGS": "GET_SETTINGS",
+    "SAVE_SETTINGS": "SAVE_SETTINGS",
+}
+
+# TikTok API URLs
+TIKTOK_API_URL = {
+    "GET_USER_AWEME_LIST": "https://aggr22-normal-alisg.tiktokv.com/lite/v2/public/item/list/",
+    "GET_AWEME_DETAIL": "https://aggr22-normal-alisg.tiktokv.com/aweme/v1/aweme/detail/",
+    "GET_USER_DETAILS": "https://aggr22-normal-alisg.tiktokv.com/aweme/v1/discover/search/",
+}

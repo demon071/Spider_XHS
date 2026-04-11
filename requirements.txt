@@ -7,3 +7,4 @@ openpyxl
 fastapi
 uvicorn[standard]
 pydantic
+pycryptodome
